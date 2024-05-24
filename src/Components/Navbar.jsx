@@ -34,15 +34,15 @@ const NavLogo = styled(LinkR)`
   cursor: pointer;
 
   img {
-    width: 180px; /* Tamaño por defecto */
+    width: 190px; /* Tamaño por defecto */
     height: auto;
 
     @media screen and (max-width: 768px) {
-      width: 130px; /* Tamaño para pantallas medianas */
+      width: 150px; /* Tamaño para pantallas medianas */
     }
 
     @media screen and (max-width: 480px) {
-      width: 112px; /* Tamaño para pantallas pequeñas */
+      width: 120px; /* Tamaño para pantallas pequeñas */
     }
   }
 `;
@@ -131,7 +131,7 @@ const MobileMenu = styled.ul`
   gap: 16px;
   padding: 12px 40px 24px 40px;
   list-style: none;
-  background: ${({ theme }) => theme.card_light + 99};
+  background: ${({ theme }) => theme.primary + 99};
   position: absolute;
   top: 80px;
   right: 0;
