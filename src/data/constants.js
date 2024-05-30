@@ -2,11 +2,12 @@ export const Bio = {
   name: "AvocoDesign",
   roles: [
     "Diseño Web",
-    "Experiencia de Usuario (UX//UI)",
+    "(UX/UI)",
     "Gestión de RRSS",
     "Optimización SEO",
-    "Creación de Contenido",
-    "Diseño Visual Atractivo",
+    "Content Creator",
+    "Branding",
+    "Diseño Gráfico"
   ],
   description:
     "Somos una agencia de diseño web apasionada por la creatividad y la tecnología. Creamos sitios web personalizados, intuitivos y visualmente atractivos. Nuestro enfoque incluye diseño responsivo, experiencia de usuario (UX) y optimización para motores de búsqueda (SEO). Queremos ayudar a nuestros clientes a tener una presencia en línea exitosa y memorable..",
