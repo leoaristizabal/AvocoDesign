@@ -121,7 +121,7 @@ const SubTitle = styled.div`
   color: ${({ theme }) => theme.text_primary + 95};
   text-align: justify;
   @media (max-width:960px){
-    text-align: center;
+    text-align: justify;
   }
 
   @media (max-width:960px){/**?????????????? */
