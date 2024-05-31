@@ -231,6 +231,7 @@ const Hero = () => {
     <HeroContainer>
 
       <HeroBg>
+        <StarCanvas/>
         <HeroBgAnimation />
       </HeroBg>
 
