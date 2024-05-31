@@ -7,6 +7,8 @@ import HeroBgAnimation from '../HeroBgAnimation'
 import { Tilt } from 'react-tilt';
 import { motion } from "framer-motion"
 import { headContainerAnimation, headTextAnimation, headContentAnimation } from "../../utils/motion"
+import HeroLogo from "../../images/AvocoNameCortado.svg";
+import StarCanvas from "../Canvas/Stars"
 
 const HeroContainer = styled.div`
   display: flex;
@@ -33,7 +35,7 @@ const HeroInnerContainer = styled.div`
   gap: 40px;
   align-items: center;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1150px;
 
   @media(max-width:960px){
     flex-direction: column;
@@ -212,6 +214,17 @@ const HeroBg = styled.div`
   }
   
   `
+const ImgHero = styled.img`
+  width: 100%;
+  margin-left: -20px;
+
+  @media (max-width: 768px) {
+      margin-left: 0;
+    } 
+`;
+
+
+
 
 const Hero = () => {
   return <div id="about">
@@ -227,42 +240,48 @@ const Hero = () => {
           <HeroLeftContainer>
             <motion.div {...headTextAnimation}>
 
-              <Title>Bienvenido a<br />{Bio.name}</Title>
+              <Title><ImgHero src={HeroLogo} alt="Avoco Deisgn Logo"></ImgHero></Title>
               <TextLoop>Tu agencia de
-              <Span>
-                <Typewriter
-                  options={{
-                    strings: Bio.roles,
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </Span>
-            </TextLoop>
+                <Span>
+                  <Typewriter
+                    options={{
+                      strings: Bio.roles,
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </Span>
+              </TextLoop>
             </motion.div>
 
             <motion.div {...headContentAnimation}>
 
-            <SubTitle>{Bio.description}</SubTitle>
+              <SubTitle>{Bio.description}</SubTitle>
 
             </motion.div>
+
             <ResumeButton href={Bio.resume} target="_blank">
               Check Resume
             </ResumeButton>
+
           </HeroLeftContainer>
+
           <HeroRightContainer>
-            <Tilt>
-              <Img src={HeroImg} alt="Avoco Desing"></Img>
-            </Tilt>
+            <motion.div {...headContentAnimation}>
+
+              <Tilt>
+                <Img src={HeroImg} alt="Avoco Desing"></Img>
+              </Tilt>
+
+            </motion.div>
           </HeroRightContainer>
+
+
+
+
         </HeroInnerContainer>
-
-
       </motion.div>
-
     </HeroContainer>
-
-
   </div>
 
 }

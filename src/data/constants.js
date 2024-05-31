@@ -10,12 +10,12 @@ export const Bio = {
     "Diseño Gráfico"
   ],
   description:
-    "Somos una agencia de diseño web apasionada por la creatividad y la tecnología. Creamos sitios web personalizados, intuitivos y visualmente atractivos. Nuestro enfoque incluye diseño responsivo, experiencia de usuario (UX) y optimización para motores de búsqueda (SEO). Queremos ayudar a nuestros clientes a tener una presencia en línea exitosa y memorable..",
+    "Somos una agencia de diseño apasionada por la creatividad y la tecnología. Creamos desde sitios web personalizados y visualmente atractivos hasta tu branding o marca personal. Nuestro enfoque incluye diseño responsivo, experiencia de usuario (UX/UI) y optimización para motores de búsqueda (SEO). Queremos ayudar a nuestros clientes a tener una presencia en línea exitosa y memorable..",
   github: "https://github.com/leoaristizabal",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin: "https://www.linkedin.com/",
+  twitter: "https://twitter.com/",
+  insta: "https://www.instagram.com/avocodesign/",
+  facebook: "https://www.facebook.com//",
 };
 
 export const skills = [
