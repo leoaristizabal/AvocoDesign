@@ -62,9 +62,9 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
     width: 100%;
     max-width: 500px;
-    background-color: rgba(17, 25, 40, 0.83);
+    background-color:${({ theme }) => theme.secondary};
     border: 1px solid rgba(255, 255, 255, 0.125);
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    box-shadow: ${({ theme }) => theme.text_primary} 0px 4px 24px;
     border-radius: 16px;
     padding: 18px 36px;
     @media (max-width: 768px) {
@@ -85,7 +85,7 @@ const SkillTitle = styled.div`
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.primary};
     
     `;
 
@@ -134,7 +134,7 @@ const Skills = () => {
             <Wrapper>
                 <Title>Skills</Title>
                 <Desc 
-                    styke={{marginBottom: "40px",}}
+                    style={{marginBottom: "40px",}}
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. A numquam eos cumque aliquid soluta nemo odio quae sint voluptatem natus.
                 </Desc>
