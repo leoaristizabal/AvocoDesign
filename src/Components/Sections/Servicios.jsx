@@ -128,15 +128,15 @@ const SkillImage = styled.img`
 `;
 
 
-const Skills = () => {
+const Servicios = () => {
     return (
-        <Container id="Skills">
+        <Container id="Servicos">
             <Wrapper>
-                <Title>Skills</Title>
+                <Title>Servicios</Title>
                 <Desc 
-                    style={{marginBottom: "40px",}}
+                    style={{margin: "0 50px 40px",}}
                 >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A numquam eos cumque aliquid soluta nemo odio quae sint voluptatem natus.
+                    Somos un grupo de desarrolladores web y diseñadores creativos en diferentes áreas y un poco mas allá! Entre nuestras habilidades destacamos en:
                 </Desc>
 
                 <SkillsContainer>
@@ -162,4 +162,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Servicios

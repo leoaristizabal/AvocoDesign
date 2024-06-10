@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import {BrowserRouter} from "react-router-dom"
 import './index.css';
 import Hero from "./Components/Sections/Hero";
-import Skills from "../src/Components/Sections/Skills"
+import Servicios from "../src/Components/Sections/Servicios"
 
 const Body = styled.div`
   background-color: ${({ theme})=> theme.bg};
@@ -23,7 +23,7 @@ function App() {
       <Navbar/>
       <Body>
         <Hero/>
-        <Skills/>
+        <Servicios/>
       </Body>
       </BrowserRouter>
     </ThemeProvider>
