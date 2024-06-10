@@ -156,8 +156,11 @@ const Servicios = () => {
                     ))}
                 </SkillsContainer>
             </Wrapper>
-
-
+            <Desc 
+                    style={{margin: "50px 40px",}}
+                >
+                    En construccion.....
+                </Desc>
         </Container>
     )
 }
