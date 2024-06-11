@@ -44,10 +44,17 @@ const Title = styled.div`
 `;
 
 const Desc = styled.div`
-    font-size: 18px;
+      font-size: 20px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 95};
+    padding: 0 32px;
+    @media (max-width:640px){/**?????????????? */
+    font-size: 16px;
+    text-align: center;
+    padding: 0 18px;
+    line-height: 28px;
+  }
 `;
 
 const SkillsContainer = styled.div`
@@ -133,8 +140,7 @@ const Servicios = () => {
         <Container id="Servicos">
             <Wrapper>
                 <Title>Servicios</Title>
-                <Desc 
-                    style={{margin: "0 50px 40px",}}
+                <Desc   
                 >
                     Somos un grupo de desarrolladores web y diseñadores creativos en diferentes áreas y un poco mas allá! Entre nuestras habilidades destacamos en:
                 </Desc>
@@ -157,7 +163,7 @@ const Servicios = () => {
                 </SkillsContainer>
             </Wrapper>
             <Desc 
-                    style={{margin: "50px 40px",}}
+                    style={{margin: "40px 40px",}}
                 >
                     En construccion.....
                 </Desc>

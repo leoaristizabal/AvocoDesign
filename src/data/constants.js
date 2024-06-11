@@ -10,7 +10,7 @@ export const Bio = {
     "Diseño Gráfico"
   ],
   description:
-    "Somos una agencia de desarrollo y diseño apasionada por la creatividad y la tecnología. Creamos desde sitios web personalizados y visualmente atractivos hasta tu branding o marca personal. Nuestro enfoque incluye diseño responsivo, experiencia de usuario (UX/UI) y optimización para motores de búsqueda (SEO). Queremos ayudar a nuestros clientes a tener una presencia en línea exitosa y memorable..",
+    "Somos una agencia de desarrollo web y diseño apasionada por la creatividad y la tecnología. Creamos desde sitios web personalizados y visualmente atractivos hasta tu branding o marca personal. Nuestro enfoque incluye diseño responsivo, experiencia de usuario (UX/UI) y optimización para motores de búsqueda (SEO). Queremos ayudar a nuestros clientes a tener una presencia en línea exitosa y memorable..",
   github: "https://github.com/leoaristizabal",
   linkedin: "https://www.linkedin.com/",
   twitter: "https://twitter.com/",
@@ -218,53 +218,48 @@ export const skills = [
   },
 ];
 
-export const experiences = [
+export const nosotros = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    role: "Leonardo Aristizabal",
+    company: "Desarrollador Frontend/Project Manager",
+    date: "Enero 2024",
+    desc: "Hola, soy Leo! Me encargo de planificar, organizar y supervisar cada fase de nuestros proyectos asi como convertir ideas y diseños en sitios web funcionales y atractivos. Utilizo lenguajes de programación frontend y varias tecnologías de backend para construir y mantener nuestros proyectos web con interfaces de usuario llamativas. ",
     skills: [
       "ReactJS",
-      "Redux",
+      "Notion",
       "NodeJs",
       "Material UI",
       "HTML",
       "CSS",
       "JavaScript",
+      "Bootstrap",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    role: "John Doe",
+    company: "Diseñador Gráfico",
+    date: "Febrero 2024",
+    desc: "Soy John, el Diseñador Gráfico aquí en Avoco Design. Mi misión es crear elementos visuales que no solo sean estéticamente agradables, sino que también comuniquen el mensaje correcto y reflejen la identidad de la marca de nuestros clientes. Desde logotipos y banners hasta gráficos para redes sociales y material impreso, mi trabajo abarca una amplia gama de medios.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "Adobe Illustartor",
+      "Figma",
+      "Photoshop"
+      
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    role: "Pedro Perez",
+    company: "Marketing Digital/Gestor RRSS",
+    date: "June 2024",
+    desc: "Soy Pedrp, el Estratega de Marketing Digital y Gestor de Redes Sociales en Avoco. Desarrollamos y ejecutamos estrategias de marketing digital para aumentar la visibilidad de nuestros clientes. Me encargo de crear contenido atractivo, gestionar las redes sociales y analizar datos para optimizar nuestras campañas.",
     skills: [
       "Android",
       "Java",
@@ -280,10 +275,10 @@ export const experiences = [
   {
     id: 3,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    role: "Humberto Meza",
+    company: "Creador de Contenido / Especialista en SEO",
+    date: "June 2024",
+    desc: "¡Hola! Soy Beto, el Creador de Contenido y Especialista en SEO de Avoco Design. Produzco contenido escrito y visual que es atractivo y relevante, y optimizo este contenido para mejorar el posicionamiento en los motores de búsqueda. Mi objetivo es aumentar el tráfico orgánico y la visibilidad en línea de nuestros clientes.",
     skills: [
       "ReactJS",
       "Redux",
@@ -301,10 +296,10 @@ export const experiences = [
   {
     id: 4,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    role: "Viviana Cardona",
+    company: "Asesor de Clientes / Analista de Datos",
+    date: "Abril 2024",
+    desc: "Soy Vivi, el Asesor de Clientes y Analista de Datos en de esta familia. Soy el punto de contacto principal para nuestros clientes, gestionando sus expectativas y asegurando su satisfacción. Analizo datos para medir la efectividad de nuestras estrategias y ofrecer recomendaciones basadas en datos para mejorar el rendimiento.",
     skills: [
       "Leadership",
       "Mobile Application Development",
@@ -313,14 +308,7 @@ export const experiences = [
       "Figma",
     ],
   },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
-  },
+  
 ];
 
 export const education = [
