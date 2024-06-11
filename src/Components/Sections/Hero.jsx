@@ -262,7 +262,7 @@ const Hero = () => {
             </motion.div>
 
             <ResumeButton href={Bio.resume} target="_blank">
-              Check Resume
+              Empieza Tu Proyecto
             </ResumeButton>
 
           </HeroLeftContainer>

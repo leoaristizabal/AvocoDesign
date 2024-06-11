@@ -31,3 +31,18 @@ export const lightTheme = {
   --body-color: #252525;
   --container-color: #111111;
  */
+
+  // DARK THEME RGBA OPACO
+  // export const darkTheme = {
+  //   bg: "rgba(0, 0, 0, 1)", // #000000
+  //   bgLight: "rgba(175, 220, 52, 1)", // #afdc34 (Verdecito)
+  //   primary: "rgba(200, 106, 18, 1)", // #c86a12 (Marroncito)
+  //   text_primary: "rgba(229, 255, 127, 1)", // #e5ff7f (Verdecitoverdecito)
+  //   text_secondary: "rgba(61, 87, 58, 1)", // #3d573a
+  //   card: "rgba(23, 23, 33, 1)", // #171721 (Oscuro)
+  //   card_light: "rgba(25, 25, 36, 1)", // #191924 (Oscuro)
+  //   button: "rgba(61, 134, 58, 1)", // #3d863a
+  //   white: "rgba(255, 255, 255, 1)", // #FFFFFF
+  //   black: "rgba(0, 0, 0, 1)", // #000000
+  // };
+  

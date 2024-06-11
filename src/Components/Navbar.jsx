@@ -169,7 +169,7 @@ const Navbar = () => {
 
         <ButtonContainer>
           <GithubButton href={Bio.github} target='_blank'>
-            Github Profile
+            Cotización
           </GithubButton>
         </ButtonContainer>
 
@@ -180,7 +180,7 @@ const Navbar = () => {
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Clientes">Clientes</NavLink>
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Otros">Otros</NavLink>
           <GithubButton href={Bio.github} target='_blank'>
-            Github Profile
+            Cotización
           </GithubButton>
         </MobileMenu>
       </NavbarContainer>

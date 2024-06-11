@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { skills } from '../../data/constants'
+import { servicios } from '../../data/constants'
 import { Tilt } from 'react-tilt';
 
 const Container = styled.div`
@@ -57,7 +57,7 @@ const Desc = styled.div`
   }
 `;
 
-const SkillsContainer = styled.div`
+const ServiciosContainer = styled.div`
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ const SkillsContainer = styled.div`
     justify-content: center;
 `;
 
-const Skill = styled.div`
+const Servicio = styled.div`
     width: 100%;
     max-width: 500px;
     background-color:${({ theme }) => theme.secondary};
@@ -87,7 +87,7 @@ const Skill = styled.div`
 
 
 
-const SkillTitle = styled.div`
+const ServicioTitle = styled.div`
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -96,7 +96,7 @@ const SkillTitle = styled.div`
     
     `;
 
-const SkillList = styled.div`
+const ServicioList = styled.div`
 
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@ const SkillList = styled.div`
 
 `;
 
-const SkillItem = styled.div`
+const ServicioItem = styled.div`
     font-size: 16px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 80};
@@ -129,7 +129,7 @@ const SkillItem = styled.div`
     
     `;
 
-const SkillImage = styled.img`
+const ServicioImg = styled.img`
     width: 24px;
     height: 24px;
 `;
@@ -145,28 +145,23 @@ const Servicios = () => {
                     Somos un grupo de desarrolladores web y diseñadores creativos en diferentes áreas y un poco mas allá! Entre nuestras habilidades destacamos en:
                 </Desc>
 
-                <SkillsContainer>
-                    {skills.map((skill, index) => (
+                <ServiciosContainer>
+                    {servicios.map((servicio, index) => (
                         <Tilt>
-                            <Skill key={`skill-${index}`}>
-                                <SkillTitle>{skill.title}</SkillTitle>
-                                <SkillList>
-                                    {skill.skills.map((item, index_x) => (
-                                        <SkillItem key={`skill-x-${index}`}>
-                                            <SkillImage src={item.image} />
+                            <Servicio key={`servicio-${index}`}>
+                                <ServicioTitle>{servicio.title}</ServicioTitle>
+                                <ServicioList>
+                                    {servicio.servicios.map((item, index_x) => (
+                                        <ServicioItem key={`servicio-x-${index}`}>
+                                            <ServicioImg src={item.image} />
                                             {item.name}
-                                        </SkillItem>
-                                    ))}</SkillList>
-                            </Skill>
+                                        </ServicioItem>
+                                    ))}</ServicioList>
+                            </Servicio>
                         </Tilt>
                     ))}
-                </SkillsContainer>
+                </ServiciosContainer>
             </Wrapper>
-            <Desc 
-                    style={{margin: "40px 40px",}}
-                >
-                    En construccion.....
-                </Desc>
         </Container>
     )
 }

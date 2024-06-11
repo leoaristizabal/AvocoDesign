@@ -2,8 +2,8 @@ import React from 'react'
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'; //estilos de la pelotica
 import styled from 'styled-components'
-import { nosotros } from '../../data/constants';
-import NosotrosCard from '../Cards/NosotrosCard';
+import { testimonio } from '../../data/constants';
+import TestimonioCard from '../Cards/TestimonioCard';
 
 const Container = styled.div`
   
@@ -13,7 +13,6 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  margin-top: 50px;
 `;
 
 const Wrapper = styled.div`
@@ -62,7 +61,7 @@ const Desc = styled.div`
 `;
 
 const SubTitle = styled.div`
-  font-size: 20px;
+  font-size: 20 px;
   line-height: 32px;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -76,22 +75,22 @@ const SubTitle = styled.div`
   
 `;
 
-const Nosotros = () => {
+const Testimonio = () => {
     return (
-        <Container id="Nosotros">
+        <Container id="Testimonio">
             <Wrapper>
-                <Title>Nostros</Title>
+                <Title>Testimonios</Title>
                 <Desc
                 >
-                    En AvocoDesign, nos apasiona transformar ideas en realidades digitales impactantes. Desde nuestra fundación, hemos ayudado a empresas de todos los tamaños a alcanzar sus objetivos mediante soluciones creativas y efectivas en desarrollo web, diseño gráfico, gestión de redes sociales y creación de contenido.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolores repellat nisi obcaecati. Voluptatibus, cum laudantium. Explicabo, doloribus? Saepe, reprehenderit.
                 </Desc>
                 <SubTitle>
-                    ¡Conoce nuestro equipo!
+                    ¿Qué dicen nuestros clientes?
                 </SubTitle>
 
                 <VerticalTimeline>
-                    {nosotros.map((nosotros, index) => (
-                        <NosotrosCard key={`nosotros-${index}`} nosotros={nosotros}/>
+                    {testimonio.map((item, index) => (
+                        <TestimonioCard key={`testimonio-${index}`} testimonio={item}/>
                     ))}
                 </VerticalTimeline>
             </Wrapper>
@@ -99,4 +98,4 @@ const Nosotros = () => {
     )
 }
 
-export default Nosotros
+export default Testimonio
