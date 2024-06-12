@@ -14,7 +14,7 @@ const Image = styled.img`
     height: 50px;
     border-radius: 10px;
     margin-top: 4px;
-
+    border: 0.25px solid #fff;
     @media only screen and (max-width: 768px) {
         height: 40px;
     }
@@ -25,7 +25,7 @@ const Body = styled.div`
     flex-direction: column;
 `;
 
-const Role = styled.div`
+const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -33,7 +33,7 @@ const Role = styled.div`
         font-size: 14px;
     }
 `;
-const Company = styled.div`
+const Role = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.primary + 99};
@@ -44,7 +44,7 @@ const Company = styled.div`
 const Date = styled.div`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
+    color: ${({ theme }) => theme.text_secondary + 95};
     @media only screen and (max-width: 768px) {
         font-size: 10px;
     }
@@ -54,7 +54,7 @@ const Description = styled.div`
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
+    color: ${({ theme }) => theme.white + 99};
     margin-bottom: 8px;
     text-align: justify;
     @media only screen and (max-width: 768px) {
@@ -98,10 +98,10 @@ const NosotrosCard = ({ nosotros }) => {
                 <img
                     width="100%"
                     height="100%"
-                    alt={nosotros?.company}
+                    alt={nosotros?.role}
                     style={{
                         borderRadius: "50%",
-                        objectFit: "cover"
+                        objectFit: "cover",
                     }}
                     src={nosotros?.img}
 
@@ -111,11 +111,11 @@ const NosotrosCard = ({ nosotros }) => {
                 display: "flex",
                 flexDirection: "column",
                 gap: "12px",
-                background: "#1d1836",
+                background: "#000",
                 color: "#fff",
-                boxShadow: "rgba(23, 92,230, 0.15) 0px 4px 24px",
+                boxShadow: "rgba(200, 106, 18, 0.5) 0px 4px 18px",
                 backgroundColor: "rgba(17, 25, 40, 0.83)",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
+                border: "1px solid rgba(229, 255, 127, 0.125)",
                 borderRadius: "6px",
             }}
 
@@ -123,14 +123,14 @@ const NosotrosCard = ({ nosotros }) => {
                 borderRight: "7px solid rgba(255, 255, 255, 0.3)",
             }}
 
-            date={nosotros.date}
+            date={nosotros.role}
 
         >
             <Top>
                 <Image src={nosotros.img} />
                 <Body>
+                    <Name>{nosotros.name}</Name>
                     <Role>{nosotros.role}</Role>
-                    <Company>{nosotros.company}</Company>
                     <Date>{nosotros.date}</Date>
                 </Body>
             </Top>

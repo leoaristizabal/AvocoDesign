@@ -18,78 +18,69 @@ export const Bio = {
   facebook: "https://www.facebook.com//",
 };
 
+
+
+
 export const servicios = [
   {
     title: "Desarrollo Web",
     servicios: [
       {
         name: "Landing Page",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        image: "src/images/ICONOAVOCOOMG.svg"
       },
       {
-        name: "SASS",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        name: "Ecommerce",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       
       
       {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        name: "Web Corporativa",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        name: "Mantenimiento",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        name: "Portfolios",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        name: "SEO",
+        image: "src/images/ICONOAVOCOOMG.svg",
       }    
     ],
   },
   {
-    title: "Backend",
+    title: "Diseño Gráfico",
     servicios: [
       {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        name: "Branding",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        name: "Logos",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
 
       {
-        name: "Django",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
+        name: "Manual de Marca",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        name: "Flyers",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+        name: "Diseños UX/UI",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
+      
       {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "Post de RRSS",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
     ],
   },
@@ -100,18 +91,15 @@ export const servicios = [
       
       {
         name: "Adobe Photoshop",
-        image:
-          "https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Canva",
-        image:
-          "https://th.bing.com/th/id/R.2991160b2644e1aaf8c401bd645b7117?rik=3rlFzh7xQZYvsQ&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f62b1fefc8309c32ce1623ded.png&ehk=8EgvjFbMCtRIKaNyeYJHxhK%2f6PltOaLL0l1%2bSeb2JfE%3d&risl=&pid=ImgRaw&r=0",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       
     ],
@@ -121,23 +109,20 @@ export const servicios = [
     servicios: [
       {
         name: "Copywriting",
-        image:"https://cdn1.iconfinder.com/data/icons/seo-and-marketing-v-2/100/seo-05-512.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Google ADS",
-        image:
-          "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3253827/google-ads-icon-md.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Facebook ADS",
-        image:
-          "https://www.360psg.com/content/images/landing_pages/socialicon5.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       
       {
         name: "Google Analytics",
-        image:
-          "https://p7.hiclipart.com/preview/856/608/990/google-analytics-google-search-google-logo-google-account-google.jpg",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       
     ],
@@ -147,38 +132,31 @@ export const servicios = [
     servicios: [
       {
         name: "Git",
-        image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Vercel",
-        image:
-          "https://logowik.com/content/uploads/images/vercel1868.jpg",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Notion",
-        image:
-          "https://th.bing.com/th/id/OIP.Z73PC48ewQSJf9hWTBDyAQHaHa?rs=1&pid=ImgDetMain",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Excel",
-        image:
-          "https://th.bing.com/th/id/R.a682ac6d1f63aa6b8f28cd68d2972ce2?rik=4JXzz4bcyiwFgA&pid=ImgRaw&r=0",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
     ],
   },
@@ -187,18 +165,15 @@ export const servicios = [
     servicios: [
       {
         name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
       {
         name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+        image: "src/images/ICONOAVOCOOMG.svg",
       },
     ],
   },
@@ -208,8 +183,8 @@ export const nosotros = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Leonardo Aristizabal",
-    company: "Desarrollador Frontend/Project Manager",
+    name: "Leonardo Aristizabal",
+    role: "Desarrollador/Project Manager",
     date: "Enero 2024",
     desc: "Hola, soy Leo! Me encargo de planificar, organizar y supervisar cada fase de nuestros proyectos asi como convertir ideas y diseños en sitios web funcionales y atractivos. Utilizo lenguajes de programación frontend y varias tecnologías de backend para construir y mantener nuestros proyectos web con interfaces de usuario llamativas. ",
     servicios: [
@@ -227,8 +202,8 @@ export const nosotros = [
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "John Doe",
-    company: "Diseñador Gráfico",
+    name: "John Doe",
+    role: "Diseñador Gráfico",
     date: "Febrero 2024",
     desc: "Soy John, el Diseñador Gráfico aquí en Avoco Design. Mi misión es crear elementos visuales que no solo sean estéticamente agradables, sino que también comuniquen el mensaje correcto y reflejen la identidad de la marca de nuestros clientes. Desde logotipos y banners hasta gráficos para redes sociales y material impreso, mi trabajo abarca una amplia gama de medios.",
     servicios: [
@@ -242,8 +217,8 @@ export const nosotros = [
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Pedro Perez",
-    company: "Marketing Digital/Gestor RRSS",
+    name: "Pedro Perez",
+    role: "Marketing Digital/Gestor RRSS",
     date: "June 2024",
     desc: "Soy Pedrp, el Estratega de Marketing Digital y Gestor de Redes Sociales en Avoco. Desarrollamos y ejecutamos estrategias de marketing digital para aumentar la visibilidad de nuestros clientes. Me encargo de crear contenido atractivo, gestionar las redes sociales y analizar datos para optimizar nuestras campañas.",
     servicios: [
@@ -261,8 +236,8 @@ export const nosotros = [
   {
     id: 3,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Humberto Meza",
-    company: "Creador de Contenido / Especialista en SEO",
+    name: "Humberto Meza",
+    role: "Creador de Contenido / Especialista en SEO",
     date: "June 2024",
     desc: "¡Hola! Soy Beto, el Creador de Contenido y Especialista en SEO de Avoco Design. Produzco contenido escrito y visual que es atractivo y relevante, y optimizo este contenido para mejorar el posicionamiento en los motores de búsqueda. Mi objetivo es aumentar el tráfico orgánico y la visibilidad en línea de nuestros clientes.",
     servicios: [
@@ -282,8 +257,8 @@ export const nosotros = [
   {
     id: 4,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Viviana Cardona",
-    company: "Asesor de Clientes / Analista de Datos",
+    name: "Viviana Cardona",
+    role: "Asesor de Clientes / Analista de Datos",
     date: "Abril 2024",
     desc: "Soy Vivi, el Asesor de Clientes y Analista de Datos en de esta familia. Soy el punto de contacto principal para nuestros clientes, gestionando sus expectativas y asegurando su satisfacción. Analizo datos para medir la efectividad de nuestras estrategias y ofrecer recomendaciones basadas en datos para mejorar el rendimiento.",
     servicios: [

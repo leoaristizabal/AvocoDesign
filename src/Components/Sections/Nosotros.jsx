@@ -51,7 +51,7 @@ const Desc = styled.div`
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 95};
+    color: ${({ theme }) => theme.white + 99};
     padding: 0 32px;
     @media (max-width:640px){/**?????????????? */
     font-size: 16px;

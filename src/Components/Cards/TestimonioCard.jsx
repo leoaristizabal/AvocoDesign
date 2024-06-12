@@ -110,7 +110,7 @@ const TestimoniosCard = ({ testimonio }) => {
                 borderRight: "7px solid rgba(255, 255, 255, 0.3)",
             }}
 
-            date={testimonio.date}
+            date={testimonio.tipo}
 
         >
             <Top>

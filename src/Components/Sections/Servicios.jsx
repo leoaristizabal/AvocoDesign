@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { servicios } from '../../data/constants'
 import { Tilt } from 'react-tilt';
+import Imagen from '../../images/ICONOAVOCOOMG.svg'
 
 const Container = styled.div`
   
@@ -44,10 +45,10 @@ const Title = styled.div`
 `;
 
 const Desc = styled.div`
-      font-size: 20px;
+    font-size: 20px;
     text-align: center;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 95};
+    color: ${({ theme }) => theme.white + 99};
     padding: 0 32px;
     @media (max-width:640px){/**?????????????? */
     font-size: 16px;
@@ -69,9 +70,9 @@ const ServiciosContainer = styled.div`
 const Servicio = styled.div`
     width: 100%;
     max-width: 500px;
-    background-color:${({ theme }) => theme.secondary};
+    background-color:${({ theme }) => theme.black};
     border: 1px solid rgba(255, 255, 255, 0.125);
-    box-shadow: ${({ theme }) => theme.text_primary} 0px 4px 24px;
+    box-shadow: rgba(200, 106, 18, 0.5) 0px 4px 18px;
     border-radius: 16px;
     padding: 18px 36px;
     @media (max-width: 768px) {
@@ -92,7 +93,7 @@ const ServicioTitle = styled.div`
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary };
     
     `;
 
@@ -109,8 +110,8 @@ const ServicioList = styled.div`
 const ServicioItem = styled.div`
     font-size: 16px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 80};
-    border: 1px solid ${({ theme }) => theme.text_primary + 80};
+    color: ${({ theme }) => theme.text_primary + 99};
+    border: 1px solid ${({ theme }) => theme.text_primary + 99};
     border-radius: 12px;
     padding: 12px 16px;
     display: flex;
@@ -140,7 +141,7 @@ const Servicios = () => {
         <Container id="Servicos">
             <Wrapper>
                 <Title>Servicios</Title>
-                <Desc   
+                <Desc
                 >
                     Somos un grupo de desarrolladores web y diseñadores creativos en diferentes áreas y un poco mas allá! Entre nuestras habilidades destacamos en:
                 </Desc>
@@ -149,6 +150,7 @@ const Servicios = () => {
                     {servicios.map((servicio, index) => (
                         <Tilt>
                             <Servicio key={`servicio-${index}`}>
+                                
                                 <ServicioTitle>{servicio.title}</ServicioTitle>
                                 <ServicioList>
                                     {servicio.servicios.map((item, index_x) => (

@@ -44,8 +44,8 @@ function App() {
           <StartCanvas />
           <div>
 
-            <Hero />
             <Wrapper>
+            <Hero />
               <Servicios />
               <Nosotros />
             </Wrapper>
