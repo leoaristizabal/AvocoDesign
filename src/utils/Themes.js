@@ -4,7 +4,7 @@ export const darkTheme = {
   primary: "#c86a12", /*marroncito */
   text_primary: "#e5ff7f", /*verdecitoverdecito */
   text_secondary: "#3d573a",
-  card: rgba(17, 25, 40, 0.83), /**oscuro */
+  card: "#171721", /**oscuro */
   card_light: "#191924", /**oscuro */
   button: "#3d863a",
   white: "#FFFFFF",
