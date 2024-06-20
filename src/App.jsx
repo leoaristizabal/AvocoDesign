@@ -7,6 +7,7 @@ import Servicios from "../src/Components/Sections/Servicios"
 import Nosotros from "./Components/Sections/Nosotros";
 import Testimonio from "./Components/Sections/Testimonio";
 import StartCanvas from "./Components/Canvas/Stars"
+import Projects from "./Components/Sections/Projects";
 
 
 
@@ -43,13 +44,15 @@ function App() {
         <Body>
           <StartCanvas />
           <div>
-
             <Wrapper>
-            <Hero />
+              <Hero />
               <Servicios />
               <Nosotros />
             </Wrapper>
-            <Testimonio />
+            <Projects />
+            <Wrapper>
+              <Testimonio />
+            </Wrapper>
           </div>
         </Body>
       </BrowserRouter>
