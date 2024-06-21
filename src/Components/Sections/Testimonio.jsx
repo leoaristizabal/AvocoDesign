@@ -4,6 +4,8 @@ import 'react-vertical-timeline-component/style.min.css'; //estilos de la peloti
 import styled from 'styled-components'
 import { testimonio } from '../../data/constants';
 import TestimonioCard from '../Cards/TestimonioCard';
+import EarthCanvas from '../Canvas/Earth';
+import Typewriter from "typewriter-effect"
 
 const Container = styled.div`
   
@@ -70,6 +72,17 @@ const SubTitle = styled.div`
   font-weight: 600;
   @media (max-width:960px){
     text-align: justify;
+  }`;
+
+const Span = styled.div`
+  font-size: 20 px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  color: ${({ theme }) => theme.primary };
+  text-align: justify;
+  font-weight: 600;
+  @media (max-width:960px){
+    text-align: justify;
   }
 
   
@@ -93,6 +106,16 @@ const Testimonio = () => {
                         <TestimonioCard key={`testimonio-${index}`} testimonio={item}/>
                     ))}
                 </VerticalTimeline>
+                <EarthCanvas/>
+                <Span>
+                  <Typewriter
+                    options={{
+                      strings: "¡GÍRAME :D!",
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </Span>
             </Wrapper>
         </Container>
     )
