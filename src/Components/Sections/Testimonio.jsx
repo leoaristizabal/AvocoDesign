@@ -110,7 +110,7 @@ const Testimonio = () => {
                 <Span>
                   <Typewriter
                     options={{
-                      strings: "¡GÍRAME :D!",
+                      strings: "¡GÍRAME Y HAZME ZOOM :D!",
                       autoStart: true,
                       loop: true,
                     }}
