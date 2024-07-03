@@ -65,7 +65,7 @@ const Date = styled.div`
     font-size: 12px;
     margin-left: 2px;
     font-weight: 400;
-    color: ${({theme})=> theme.text_secondary + 80};
+    color: ${({theme})=> theme.text_secondary};
     @media only screen and (max-width: 768px) {
         font-size:10px
     }
@@ -73,7 +73,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    color: ${({theme})=> theme.text_secondary + 99};
+    color: ${({theme})=> theme.white + 99};
     overflow: hidden;
     margin-top:8px;
     display: -webkit-box;
@@ -114,7 +114,7 @@ const ProjectCard = ({project}) => {
         <Tags></Tags>
         <Details>
             <Title>{project.title}</Title>
-            <Date>{project.date}</Date>
+            <Date>{project.tags} - {project.date}</Date>
             <Description>{project.description}</Description>
         </Details>
         <Members>
@@ -122,7 +122,7 @@ const ProjectCard = ({project}) => {
                 <Avatar src={member.img}/>
             ))}
         </Members>
-        <Button href={project.github} target="_blank">
+        <Button href={project.webapp} target="_blank">
             Ver Demo
         </Button>
     </Card>

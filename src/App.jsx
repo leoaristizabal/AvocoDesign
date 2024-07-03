@@ -8,7 +8,7 @@ import Nosotros from "./Components/Sections/Nosotros";
 import Testimonio from "./Components/Sections/Testimonio";
 import StartCanvas from "./Components/Canvas/Stars"
 import Projects from "./Components/Sections/Projects";
-
+import Contact from "./Components/Sections/Contact";
 
 
 const Body = styled.div`
@@ -52,6 +52,7 @@ function App() {
             <Projects />
             <Wrapper>
               <Testimonio />
+              <Contact/>
             </Wrapper>
           </div>
         </Body>
