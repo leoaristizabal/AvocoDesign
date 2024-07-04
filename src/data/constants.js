@@ -308,7 +308,7 @@ export const projects = [
     description:
       "Cliente de Barcelona al cual se le realizó tanto el branding de su marca como la pagina web con una excelente receptividad",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://i.imgur.com/4t95oYb.jpeg",
     tags: "Landing Page",
     category: "Web",
     webapp: "https://la'capital.vercel.app/",
@@ -320,7 +320,7 @@ export const projects = [
     description:
       "Landing Page para psicologo infantil en la ciudad de Caracas con citas y suscripciones en la pagina",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://i.imgur.com/8rRxg7b.png",
     tags: [
       "Landing Page",
     ],
@@ -334,7 +334,7 @@ export const projects = [
     description:
       "Plataforma para encontrar torneos de padel tipo americanos en Caracas Venezuela. Distribuidos por club, categoria y fecha",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://i.imgur.com/CglCs0h.png",
     tags: "App Web",
     category: "Web",
     github: "https://github.com/rishavchanda/Podstream",
