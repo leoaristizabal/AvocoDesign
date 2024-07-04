@@ -361,7 +361,7 @@ export const projects = [
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://i.imgur.com/0VQcEeB.jpeg",
     tags:"Landing Page",
     category: "Web",
     github: "https://leoaristizabal.github.io/trasladateccs/",
@@ -374,7 +374,7 @@ export const projects = [
     description:
       "Frontend de Ecommerce para padel con sección de carrito de compras, catalogo de productos y blog",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+      "https://i.imgur.com/NsgkYMS.jpeg",
     tags: "Ecommerce",
     category: "Web",
     github: "https://github.com/leoaristizabal/PadelEcommerce",
@@ -401,7 +401,7 @@ export const projects = [
     description:
       "Web app para la busqueda de vuelos disponibles de la agencia con paquetes especiales y galeria de clientes",
     image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://i.imgur.com/cjpKEMC.jpeg",
     tags: "App Web",
     category: "Web",
     github: "https://leoaristizabal.github.io/travelwebsite/",
@@ -414,7 +414,7 @@ export const projects = [
     description:
       "Branding para La Capital Carnicería especializado contodos sus recomendaciones y directrices de uso",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+      "https://i.imgur.com/Cg6e5NH.jpeg",
     tags: "Branding",
     category: "Branding",
     github: "https://github.com/rishavchanda/Job-finder-App",
@@ -427,7 +427,7 @@ export const projects = [
     description:
       "Branding completo para coffee shop incluyendo logo, menu, uniformes y tarjetas de presentación",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      "https://i.imgur.com/PJ71s8C.jpeg",
     tags: "Branding",
     category: "Branding",
     github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
@@ -440,7 +440,7 @@ export const projects = [
     description:
       "Logo para Droguería en la ciudad de Caracas con aplicaciones para material digital, textil y banners",
     image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://i.imgur.com/nTfxtIi.png",
     tags: "Logo",
     category: "Logos",
     github: "https://github.com/rishavchanda/Todo-Web-App",
@@ -453,7 +453,7 @@ export const projects = [
     description:
       "Logo para tienda de ropa en Barcelona, España en diferentes versiones y aplicaciones tanto digitales como físicas",
     image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
+      "https://i.imgur.com/shsCo90.png",
     tags: "Logo",
     category: "Logos",
     github: "https://github.com/rishavchanda/Breaking-Bad",
@@ -466,7 +466,7 @@ export const projects = [
     description:
       "Logo para un landing page de un desarrollar web con animaciones y vectorizado apra un amplio uso",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+      "https://i.imgur.com/szwPaab.png",
     tags: "Logo",
     category: "Logos",
     github: "https://github.com/rishavchanda/Quiz-Earn",
@@ -479,11 +479,12 @@ export const projects = [
     description:
       "Logo diseñado para empresa encargada de la comercialización de materiales de construcción en Caracas, Venezuela",
     image:
-      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
+      "https://i.imgur.com/178uPcE.png",
     tags: "Logo",
     category: "Logo",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
+  
 ];
 
