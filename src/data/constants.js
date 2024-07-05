@@ -180,7 +180,7 @@ export const servicios = [
 export const nosotros = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: "/profile/leo.svg",
     name: "Leonardo Aristizabal",
     role: "Desarrollador/Project Manager",
     date: "Enero 2024",
@@ -199,7 +199,7 @@ export const nosotros = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "/profile/7.svg",
     name: "John Doe",
     role: "Diseñador Gráfico",
     date: "Febrero 2024",
@@ -214,7 +214,7 @@ export const nosotros = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    img: "/profile/8.svg",
     name: "Pedro Perez",
     role: "Marketing Digital/Gestor RRSS",
     date: "June 2024",
@@ -233,7 +233,7 @@ export const nosotros = [
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "/profile/6.svg",
     name: "Humberto Meza",
     role: "Creador de Contenido / Especialista en SEO",
     date: "June 2024",
@@ -254,7 +254,7 @@ export const nosotros = [
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    img: "/profile/viviana.svg",
     name: "Viviana Cardona",
     role: "Asesor de Clientes / Analista de Datos",
     date: "Abril 2024",
@@ -311,7 +311,23 @@ export const projects = [
       "https://i.imgur.com/4t95oYb.jpeg",
     tags: "Landing Page",
     category: "Web",
-    webapp: "https://la'capital.vercel.app/",
+    webapp: "https://lacapitalcarniceria.com/",
+    member: [
+      {
+        name: "Leonardo Aristizabal",
+        img: "/profile/leo.svg",
+      },
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+      {
+        name: "Pedro Perez",
+        img: "/profile/8.svg",
+      }
+      
+      
+    ],
   },
   {
     id: 9,
@@ -326,6 +342,18 @@ export const projects = [
     ],
     category: "Web",
     webapp: "https://psicoaventuras.com/",
+    member: [
+      {
+        name: "Leonardo Aristizabal",
+        img: "/profile/leo.svg",
+      },
+      {
+        name: "Humberto Meza",
+        img: "/profile/6.svg",
+      },
+      
+      
+    ],
   },
   {
     id: 0,
@@ -337,20 +365,16 @@ export const projects = [
       "https://i.imgur.com/CglCs0h.png",
     tags: "App Web",
     category: "Web",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    webapp: "https://padel-event.vercel.app/",
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
+        img: "/profile/leo.svg",
+        github: "https://github.com/leoaristizabal/",
       },
       {
-        name: "Viviana Cardona",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Humberto Meza",
+        img: "/profile/6.svg",
       },
     ],
   },
@@ -364,8 +388,17 @@ export const projects = [
       "https://i.imgur.com/0VQcEeB.jpeg",
     tags:"Landing Page",
     category: "Web",
-    github: "https://leoaristizabal.github.io/trasladateccs/",
-    webapp: "https://leoaristizabal.github.io/trasladateccs//",
+    member: [
+      {
+        name: "Leonardo Aristizabal",
+        img: "/profile/leo.svg",
+      },
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+      
+    ],
   },
   {
     id: 2,
@@ -382,16 +415,13 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
+        img: "/profile/leo.svg",
       },
       {
-        name: "Viviana Cardona",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "John Doe",
+        img: "/profile/7.svg",
       },
+      
     ],
   },
   {
@@ -403,9 +433,13 @@ export const projects = [
     image:
       "https://i.imgur.com/cjpKEMC.jpeg",
     tags: "App Web",
-    category: "Web",
-    github: "https://leoaristizabal.github.io/travelwebsite/",
-    webapp: "https://leoaristizabal.github.io/travelwebsite/",
+    category: "Web",member: [
+      {
+        name: "Leonardo Aristizabal",
+        img: "/profile/leo.svg",
+      },
+      
+    ],
   },
   {
     id: 10,
@@ -417,8 +451,18 @@ export const projects = [
       "https://i.imgur.com/Cg6e5NH.jpeg",
     tags: "Branding",
     category: "Branding",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    member: [
+      
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+      {
+        name: "Pedro Perez",
+        img: "/profile/8.svg",
+      }
+      
+    ],
   },
   {
     id: 4,
@@ -430,8 +474,21 @@ export const projects = [
       "https://i.imgur.com/PJ71s8C.jpeg",
     tags: "Branding",
     category: "Branding",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    member: [
+      {
+        name: "Leonardo Aristizabal",
+        img: "/profile/leo.svg",
+      },
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+      {
+        name: "Pedro Perez",
+        img: "/profile/8.svg",
+      }
+      
+    ],
   },
   {
     id: 5,
@@ -443,8 +500,13 @@ export const projects = [
       "https://i.imgur.com/nTfxtIi.png",
     tags: "Logo",
     category: "Logos",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    webapp: "/",
+    member: [
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+    ],
   },
   {
     id: 6,
@@ -456,8 +518,17 @@ export const projects = [
       "https://i.imgur.com/shsCo90.png",
     tags: "Logo",
     category: "Logos",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    member: [
+      {
+        name: "Leonardo Aristizabal",
+        img: "/profile/leo.svg",
+      },
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+      
+    ],
   },
   {
     id: 7,
@@ -469,8 +540,12 @@ export const projects = [
       "https://i.imgur.com/szwPaab.png",
     tags: "Logo",
     category: "Logos",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    member: [
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+    ],
   },
   {
     id: 8,
@@ -482,8 +557,12 @@ export const projects = [
       "https://i.imgur.com/178uPcE.png",
     tags: "Logo",
     category: "Logo",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    member: [
+      {
+        name: "John Doe",
+        img: "/profile/7.svg",
+      },
+    ],
   },
   
 ];

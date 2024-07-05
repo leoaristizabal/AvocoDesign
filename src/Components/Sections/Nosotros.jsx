@@ -80,11 +80,11 @@ const Nosotros = () => {
     return (
         <Container id="Nosotros">
             <Wrapper>
-                <Title>Nostros</Title>
+                <Title>Nuestro Equipo</Title>
                 <Desc
                 >
-                    En AvocoDesign, nos apasiona transformar ideas en realidades digitales impactantes. Desde nuestra fundación, hemos ayudado a empresas de todos los tamaños a alcanzar sus objetivos mediante soluciones creativas y efectivas en desarrollo web, diseño gráfico, gestión de redes sociales y creación de contenido.
-                </Desc>
+                    En AvocoDesign, nos apasiona transformar ideas en realidades digitales impactantes. Desde nuestra fundación, hemos ayudado a empresas de todos los tamaños a alcanzar sus objetivos mediante las mejores soluciones creativas! 
+                    </Desc>
                 <SubTitle>
                     ¡Conoce nuestro equipo!
                 </SubTitle>
