@@ -180,7 +180,7 @@ export const servicios = [
 export const nosotros = [
   {
     id: 0,
-    img: "/profile/leo.svg",
+    img: "/leo.svg",
     name: "Leonardo Aristizabal",
     role: "Desarrollador/Project Manager",
     date: "Enero 2024",
@@ -199,7 +199,7 @@ export const nosotros = [
   },
   {
     id: 1,
-    img: "/profile/7.svg",
+    img: "/7.svg",
     name: "John Doe",
     role: "Diseñador Gráfico",
     date: "Febrero 2024",
@@ -214,7 +214,7 @@ export const nosotros = [
   },
   {
     id: 2,
-    img: "/profile/8.svg",
+    img: "/8.svg",
     name: "Pedro Perez",
     role: "Marketing Digital/Gestor RRSS",
     date: "June 2024",
@@ -233,7 +233,7 @@ export const nosotros = [
   },
   {
     id: 3,
-    img: "/profile/6.svg",
+    img: "/6.svg",
     name: "Humberto Meza",
     role: "Creador de Contenido / Especialista en SEO",
     date: "June 2024",
@@ -254,7 +254,7 @@ export const nosotros = [
   },
   {
     id: 4,
-    img: "/profile/viviana.svg",
+    img: "/viviana.svg",
     name: "Viviana Cardona",
     role: "Asesor de Clientes / Analista de Datos",
     date: "Abril 2024",
@@ -315,15 +315,15 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
       {
         name: "Pedro Perez",
-        img: "/profile/8.svg",
+        img: "/8.svg",
       }
       
       
@@ -345,11 +345,11 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       {
         name: "Humberto Meza",
-        img: "/profile/6.svg",
+        img: "/6.svg",
       },
       
       
@@ -369,12 +369,12 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
         github: "https://github.com/leoaristizabal/",
       },
       {
         name: "Humberto Meza",
-        img: "/profile/6.svg",
+        img: "/6.svg",
       },
     ],
   },
@@ -391,11 +391,11 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
       
     ],
@@ -415,11 +415,11 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
       
     ],
@@ -436,7 +436,7 @@ export const projects = [
     category: "Web",member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       
     ],
@@ -455,11 +455,11 @@ export const projects = [
       
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
       {
         name: "Pedro Perez",
-        img: "/profile/8.svg",
+        img: "/8.svg",
       }
       
     ],
@@ -477,15 +477,15 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
       {
         name: "Pedro Perez",
-        img: "/profile/8.svg",
+        img: "/8.svg",
       }
       
     ],
@@ -504,7 +504,7 @@ export const projects = [
     member: [
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
     ],
   },
@@ -521,11 +521,11 @@ export const projects = [
     member: [
       {
         name: "Leonardo Aristizabal",
-        img: "/profile/leo.svg",
+        img: "/leo.svg",
       },
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
       
     ],
@@ -543,7 +543,7 @@ export const projects = [
     member: [
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
     ],
   },
@@ -560,7 +560,7 @@ export const projects = [
     member: [
       {
         name: "John Doe",
-        img: "/profile/7.svg",
+        img: "/7.svg",
       },
     ],
   },
