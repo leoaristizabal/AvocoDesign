@@ -38,7 +38,7 @@ const Title = styled.div`
     text-align: center;
     font-weight: 600;
     margin-top: 20px;
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.text_primary};
 
     @media (max-width: 768px) {
         margin-top: 12px;
@@ -50,7 +50,7 @@ const Desc = styled.div`
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    color: ${({ theme }) => theme.white + 99};
+    color: ${({ theme }) => theme.white };
     padding: 0 32px;
     @media (max-width:640px){/**?????????????? */
     font-size: 16px;
@@ -62,8 +62,8 @@ const Desc = styled.div`
 
 const ToggleButtonGroup = styled.div`
     display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.primary};
+    border: 1.5px solid ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.text_primary};
     font-size: 16px;
     border-radius: 12px;
     font-weight: 500;
@@ -78,7 +78,7 @@ const ToggleButton = styled.div`
     border-radius: 6px;
     cursor: pointer;
     &:hover {
-        background: ${({ theme }) => theme.primary + 20};
+        background: ${({ theme }) => theme.text_primary + 40};
     }
     @media (max-width: 768px) {
         padding: 6px 8px;
@@ -86,13 +86,13 @@ const ToggleButton = styled.div`
     }
     ${({ active, theme }) => active &&
         `
-    background: ${theme.primary + 20}
+    background: ${theme.text_primary + 20}
     `}
 `;
 
 const Divider = styled.div`
     width: 1.5px;
-    background: ${({ theme }) => theme.primary};
+    background: ${({ theme }) => theme.text_primary};
 `;
 
 const CardContainer = styled.div`
@@ -106,7 +106,7 @@ const CardContainer = styled.div`
 const Projects = () => {
     const [toggle, setToggle] = useState("Todos")
     return (
-        <Container id="Projects">Projects
+        <Container id="Projects">
             <Wrapper>
                 <Title>Proyectos</Title>
                 <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus, distinctio esse sequi iure vel voluptates ullam laudantium sit mollitia.</Desc>

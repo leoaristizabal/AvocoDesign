@@ -28,7 +28,7 @@ const Body = styled.div`
 const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary + 90};
+    color: ${({ theme }) => theme.text_primary };
     @media only screen and (max-width: 768px) {
         font-size: 14px;
     }
@@ -44,7 +44,7 @@ const Role = styled.div`
 const Date = styled.div`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.white + 99};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px) {
         font-size: 10px;
     }
@@ -54,7 +54,7 @@ const Description = styled.div`
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    color: ${({ theme }) => theme.white + 99};
+    color: ${({ theme }) => theme.white};
     margin-bottom: 8px;
     text-align: justify;
     @media only screen and (max-width: 768px) {
@@ -77,7 +77,7 @@ const Span = styled.div`
 const Skill = styled.div`
     font-size: 15px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
+    color: ${({ theme }) => theme.text_primary};
     margin-bottom: 10px;
     @media only screen and (max-width: 768px) {
         font-size: 12px;
@@ -113,9 +113,9 @@ const NosotrosCard = ({ nosotros }) => {
                 gap: "12px",
                 background: "#000",
                 color: "#fff",
-                boxShadow: "rgba(200, 106, 18, 0.5) 0px 4px 18px",
-                backgroundColor: "transparent",
-                border: "1px solid rgba(229, 255, 127, 0.125)",
+                boxShadow: "rgba(175, 220, 52, 0.5) 0px 4px 18px",
+                backgroundColor: "#252525",
+                border: "1px solid rgba(175, 220, 52, 0.125)",
                 borderRadius: "6px",
             }}
 

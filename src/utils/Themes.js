@@ -1,5 +1,5 @@
 export const darkTheme = {
-  bg: "#000000",/**/
+  bg: "#3d573a",/**/
   bgLight: "#afdc34", /*Verdecito */
   primary: "#c86a12", /*marroncito */
   text_primary: "#e5ff7f", /*verdecitoverdecito */
@@ -8,7 +8,7 @@ export const darkTheme = {
   card_light: "#191924", /**oscuro */
   button: "#3d863a",
   white: "#FFFFFF",
-  black: "#000000",
+  black: "#252525",
 };
 
 export const lightTheme = {

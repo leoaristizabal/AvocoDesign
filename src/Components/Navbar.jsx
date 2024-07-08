@@ -6,7 +6,7 @@ import { MenuRounded } from "@mui/icons-material";
 import Logo from "../images/LogoNegroOMG.svg";
 
 const Nav = styled.div`
-  background-color: ${({ theme }) => theme.bg};
+  background-color: ${({ theme }) => theme.black};
   height: 100px;
   display: flex;
   align-items: center;

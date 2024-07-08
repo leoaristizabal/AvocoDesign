@@ -37,7 +37,7 @@ const Title = styled.div`
     text-align: center;
     font-weight: 600;
     margin-top: 20px;
-    color: ${({ theme }) => theme.text_primary };
+    color: ${({ theme }) => theme.primary  };
 
     @media (max-width: 768px) {
         margin-top: 12px;
@@ -49,7 +49,7 @@ const Desc = styled.div`
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    color: ${({ theme }) => theme.white + 99};
+    color: ${({ theme }) => theme.white };
     padding: 0 32px;
     @media (max-width:640px){/**?????????????? */
     font-size: 16px;
@@ -71,9 +71,9 @@ const ServiciosContainer = styled.div`
 const Servicio = styled.div`
     width: 100%;
     max-width: 500px;
-    background-color: transparent;
+    background-color: ${({theme})=> theme.black};
     border: 1px solid rgba(255, 255, 255, 0.125);
-    box-shadow: rgba(200, 106, 18, 0.5) 0px 4px 18px;
+    box-shadow: rgba(175, 220, 52, 0.5) 0px 4px 18px;
     border-radius: 16px;
     padding: 18px 36px;
     @media (max-width: 768px) {
@@ -88,14 +88,12 @@ const Servicio = styled.div`
 `;
 
 
-
-
 const ServicioTitle = styled.div`
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
-    color: ${({ theme }) => theme.primary };
+    color: ${({ theme }) => theme.text_primary};
     
     `;
 
@@ -108,39 +106,20 @@ const ServicioList = styled.div`
     margin-bottom: 20px;
 
 `;
-// Define la animación del borde
-const animateBorder = keyframes`
-  75% {
-    border-color: rgba(175, 220, 52, 0.1); /* Cambia este color según tu tema */
-  } 
-  15% {
-      border-color: rgba(200, 106, 18, 0.25); /* Cambia este color según tu tema */
-    }
-  10% {
-      border-color: rgba(200, 106, 18, 0.1); /* Cambia este color según tu tema */
-    }
-  5% {
-      border-color: rgba(255, 255, 255, 0.25); /* Cambia este color según tu tema */
-    }
-  95% {
-      border-color: rgba(255, 255, 255, 0.15); /* Cambia este color según tu tema */
-    }
-    
-`;
+
 
 // Aplica la animación al componente
 const ServicioItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.white + '99'};
-  border: 0.5px solid rgba(255, 255, 255, 0.1); /* Cambia este color según tu tema */
+  color: ${({ theme }) => theme.white };
+  border: 1px solid ${({ theme }) => theme.white };; /* Cambia este color según tu tema */
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  animation: ${animateBorder} 5s infinite;
 
   @media (max-width: 768px) {
     font-size: 14px;

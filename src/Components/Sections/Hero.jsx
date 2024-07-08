@@ -120,7 +120,7 @@ const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.white + 99};
+  color: ${({ theme }) => theme.white};
   text-align: justify;
   @media (max-width:960px){
     text-align: justify;

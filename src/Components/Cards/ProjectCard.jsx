@@ -6,7 +6,7 @@ import { projects } from '../../data/constants';
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: transparent;
+    background-color: ${({theme})=>theme.black};
     border: 1px solid rgba(229, 255, 127, 0.125);
     cursor: pointer;
     border-radius: 10px;
@@ -17,7 +17,7 @@ const Card = styled.div`
     flex-direction: column;
     gap: 14px;
     transition: all 0.25s ease-in-out;
-    box-shadow:rgba(200, 106, 18, 0.5) 0px 4px 18px;
+    box-shadow:rgba(175, 220, 52, 0.3) 0px 4px 18px;
     &:hover{
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
@@ -67,7 +67,7 @@ const Date = styled.div`
     font-size: 12px;
     margin-left: 2px;
     font-weight: 400;
-    color: ${({theme})=> theme.text_secondary};
+    color: ${({theme})=> theme.text_primary +99};
     @media only screen and (max-width: 768px) {
         font-size:10px
     }
@@ -75,7 +75,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    color: ${({theme})=> theme.white + 99};
+    color: ${({theme})=> theme.white };
     overflow: hidden;
     margin-top:8px;
     display: -webkit-box;
@@ -98,7 +98,7 @@ const Avatar = styled.img`
     margin-left: -10px;
     background-color:${({theme})=> theme.white};
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border: 3px solid ${({theme})=> theme.card};
+    border: 2   px solid ${({theme})=> theme.primary};
 `;
 
 const Button = styled.a`

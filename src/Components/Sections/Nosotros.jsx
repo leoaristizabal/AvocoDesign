@@ -39,7 +39,7 @@ const Title = styled.div`
     text-align: center;
     font-weight: 600;
     margin-top: 20px;
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.text_primary};
 
     @media (max-width: 768px) {
         margin-top: 12px;
@@ -51,7 +51,7 @@ const Desc = styled.div`
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    color: ${({ theme }) => theme.white + 99};
+    color: ${({ theme }) => theme.white};
     padding: 0 32px;
     @media (max-width:640px){/**?????????????? */
     font-size: 16px;
@@ -66,7 +66,7 @@ const SubTitle = styled.div`
   line-height: 32px;
   margin-top: 20px;
   margin-bottom: 0px;
-  color: ${({ theme }) => theme.text_primary };
+  color: ${({ theme }) => theme.primary };
   text-align: justify;
   font-weight: 600;
   @media (max-width:960px){
