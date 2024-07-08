@@ -66,7 +66,7 @@ const SubTitle = styled.div`
   line-height: 32px;
   margin-top: 20px;
   margin-bottom: 0px;
-  color: ${({ theme }) => theme.primary };
+  color: ${({ theme }) => theme.text_primary };
   text-align: justify;
   font-weight: 600;
   @media (max-width:960px){
@@ -83,10 +83,10 @@ const Nosotros = () => {
                 <Title>Nuestro Equipo</Title>
                 <Desc
                 >
-                    En AvocoDesign, nos apasiona transformar ideas en realidades digitales impactantes. Desde nuestra fundación, hemos ayudado a empresas de todos los tamaños a alcanzar sus objetivos mediante las mejores soluciones creativas! 
+                    En AvocoDesign, nos apasiona transformar tus ideas en realidades digitales impactantes. Desde nuestra fundación, contamos con un equipo que ofrece las mejores soluciones creativas! 
                     </Desc>
                 <SubTitle>
-                    ¡Conoce nuestro equipo!
+                    ¡Conócenos!
                 </SubTitle>
 
                 <VerticalTimeline>

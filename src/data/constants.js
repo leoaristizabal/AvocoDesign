@@ -59,6 +59,10 @@ export const servicios = [
         image: "/ICONOAVOCOOMG.svg",
       },
       {
+        name: "Diseños UX/UI",
+        image: "/ICONOAVOCOOMG.svg",
+      },
+      {
         name: "Logos",
         image: "/ICONOAVOCOOMG.svg",
       },
@@ -71,13 +75,10 @@ export const servicios = [
         name: "Flyers",
         image: "/ICONOAVOCOOMG.svg",
       },
-      {
-        name: "Diseños UX/UI",
-        image: "/ICONOAVOCOOMG.svg",
-      },
+      
       
       {
-        name: "Post de RRSS",
+        name: "Posts RRSS",
         image: "/ICONOAVOCOOMG.svg",
       },
     ],
@@ -89,6 +90,10 @@ export const servicios = [
       
       {
         name: "Adobe Photoshop",
+        image: "/ICONOAVOCOOMG.svg",
+      },
+      {
+        name: "Illustrator",
         image: "/ICONOAVOCOOMG.svg",
       },
       {
@@ -130,10 +135,6 @@ export const servicios = [
     servicios: [
       {
         name: "Git",
-        image: "/ICONOAVOCOOMG.svg",
-      },
-      {
-        name: "GitHub",
         image: "/ICONOAVOCOOMG.svg",
       },
       {
@@ -184,7 +185,7 @@ export const nosotros = [
     name: "Leonardo Aristizabal",
     role: "Desarrollador/Project Manager",
     date: "Enero 2024",
-    desc: "Hola, soy Leo! Me encargo de planificar, organizar y supervisar cada fase de nuestros proyectos asi como convertir ideas y diseños en sitios web funcionales y atractivos. Utilizo lenguajes de programación frontend y varias tecnologías de backend para construir y mantener nuestros proyectos web con interfaces de usuario llamativas. ",
+    desc: "Hola, soy Leo! Me encargo de planificar, organizar y supervisar cada fase de nuestros proyectos asi como convertir ideas y diseños en sitios web funcionales y atractivos, al mantener nuestros proyectos con interfaces de usuario llamativas. ",
     servicios: [
       "ReactJS",
       "Notion",
@@ -200,10 +201,10 @@ export const nosotros = [
   {
     id: 1,
     img: "/7.svg",
-    name: "John Doe",
+    name: "John Rodriguez",
     role: "Diseñador Gráfico",
     date: "Febrero 2024",
-    desc: "Soy John, el Diseñador Gráfico aquí en Avoco Design. Mi misión es crear elementos visuales que no solo sean estéticamente agradables, sino que también comuniquen el mensaje correcto y reflejen la identidad de la marca de nuestros clientes. Desde logotipos y banners hasta gráficos para redes sociales y material impreso, mi trabajo abarca una amplia gama de medios.",
+    desc: "Soy John, el Diseñador Gráfico de Avoco Design. Mi misión es crear elementos visuales que no solo sean estéticamente agradables, sino que también comuniquen el mensaje correcto y reflejen la identidad de la marca de nuestros clientes.",
     servicios: [
       "Adobe Illustartor",
       "Figma",
@@ -215,10 +216,10 @@ export const nosotros = [
   {
     id: 2,
     img: "/8.svg",
-    name: "Pedro Perez",
+    name: "Pedro Gonzalez",
     role: "Marketing Digital/Gestor RRSS",
     date: "June 2024",
-    desc: "Soy Pedrp, el Estratega de Marketing Digital y Gestor de Redes Sociales en Avoco. Desarrollamos y ejecutamos estrategias de marketing digital para aumentar la visibilidad de nuestros clientes. Me encargo de crear contenido atractivo, gestionar las redes sociales y analizar datos para optimizar nuestras campañas.",
+    desc: "Soy Pedro,en Avoco desarrollamos y ejecutamos estrategias de marketing digital para aumentar la visibilidad de nuestros clientes. Me encargo de crear contenido atractivo, gestionar las redes sociales y analizar datos para optimizar nuestras campañas.",
     servicios: [
       "Android",
       "Java",
@@ -237,7 +238,7 @@ export const nosotros = [
     name: "Humberto Meza",
     role: "Creador de Contenido / Especialista en SEO",
     date: "June 2024",
-    desc: "¡Hola! Soy Beto, el Creador de Contenido y Especialista en SEO de Avoco Design. Produzco contenido escrito y visual que es atractivo y relevante, y optimizo este contenido para mejorar el posicionamiento en los motores de búsqueda. Mi objetivo es aumentar el tráfico orgánico y la visibilidad en línea de nuestros clientes.",
+    desc: "¡Hola! Me encargo de producir contenido escrito y visual que es atractivo y relevante, y optimizo este contenido para mejorar el posicionamiento en los motores de búsqueda. Mi objetivo es aumentar el tráfico orgánico y la visibilidad en línea de nuestros clientes.",
     servicios: [
       "ReactJS",
       "Redux",
@@ -258,7 +259,7 @@ export const nosotros = [
     name: "Viviana Cardona",
     role: "Asesor de Clientes / Analista de Datos",
     date: "Abril 2024",
-    desc: "Soy Vivi, el Asesor de Clientes y Analista de Datos en de esta familia. Soy el punto de contacto principal para nuestros clientes, gestionando sus expectativas y asegurando su satisfacción. Analizo datos para medir la efectividad de nuestras estrategias y ofrecer recomendaciones basadas en datos para mejorar el rendimiento.",
+    desc: "Hola! Soy el punto de contacto principal para nuestros clientes, gestionando sus expectativas y asegurando su satisfacción. Analizo datos para medir la efectividad de nuestras estrategias y ofrecer recomendaciones basadas en datos para mejorar el rendimiento.",
     servicios: [
       "Leadership",
       "Mobile Application Development",

@@ -28,7 +28,7 @@ const Body = styled.div`
 const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary + 99};
+    color: ${({ theme }) => theme.text_primary + 90};
     @media only screen and (max-width: 768px) {
         font-size: 14px;
     }
@@ -36,7 +36,7 @@ const Name = styled.div`
 const Role = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: ${({ theme }) => theme.primary + 99};
+    color: ${({ theme }) => theme.primary };
     @media only screen and (max-width: 768px) {
         font-size: 12px;
     }
@@ -44,7 +44,7 @@ const Role = styled.div`
 const Date = styled.div`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 95};
+    color: ${({ theme }) => theme.white + 99};
     @media only screen and (max-width: 768px) {
         font-size: 10px;
     }
@@ -114,7 +114,7 @@ const NosotrosCard = ({ nosotros }) => {
                 background: "#000",
                 color: "#fff",
                 boxShadow: "rgba(200, 106, 18, 0.5) 0px 4px 18px",
-                backgroundColor: "rgba(17, 25, 40, 0.83)",
+                backgroundColor: "transparent",
                 border: "1px solid rgba(229, 255, 127, 0.125)",
                 borderRadius: "6px",
             }}

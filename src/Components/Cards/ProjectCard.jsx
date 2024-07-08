@@ -6,7 +6,8 @@ import { projects } from '../../data/constants';
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: ${({theme})=> theme.card};
+    background-color: transparent;
+    border: 1px solid rgba(229, 255, 127, 0.125);
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
@@ -16,6 +17,7 @@ const Card = styled.div`
     flex-direction: column;
     gap: 14px;
     transition: all 0.25s ease-in-out;
+    box-shadow:rgba(200, 106, 18, 0.5) 0px 4px 18px;
     &:hover{
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
