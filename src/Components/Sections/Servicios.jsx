@@ -4,6 +4,7 @@ import { servicios } from '../../data/constants'
 import { Tilt } from 'react-tilt';
 import Imagen from '../../images/ICONOAVOCOOMG.svg'
 import Typewriter from "typewriter-effect"
+import StarCanvas from "../Canvas/Stars"
 
 const Container = styled.div`
   
@@ -71,8 +72,8 @@ const ServiciosContainer = styled.div`
 const Servicio = styled.div`
     width: 100%;
     max-width: 500px;
-    background-color: ${({theme})=> theme.black};
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    background-color: transparent;
+    border: 1px solid rgba(175, 220, 52, 0.25);
     box-shadow: rgba(175, 220, 52, 0.5) 0px 4px 18px;
     border-radius: 16px;
     padding: 18px 36px;
@@ -141,6 +142,7 @@ const Servicios = () => {
     return (
         <Container id="Servicos">
             <Wrapper>
+            <StarCanvas/>
                 <Title>Servicios</Title>
                 <Desc
                 >
