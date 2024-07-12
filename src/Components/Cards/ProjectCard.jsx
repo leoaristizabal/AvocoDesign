@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import { projects } from '../../data/constants';
+import StarCanvas from "../Canvas/Stars"
 
 
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: ${({theme})=>theme.black};
+    background-color: transparent;
     border: 1px solid rgba(229, 255, 127, 0.125);
     cursor: pointer;
     border-radius: 10px;
@@ -31,7 +32,8 @@ const Image = styled.img`
     height: 180px;
     background-color: ${({theme})=> theme.white};
     border-radius: 10px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 0 16px 2px rgba(175,220,52,0.3);
+    border: 1px solid rgba(175, 220, 52, 0.75); 
 `;
 
 const Tags = styled.div`

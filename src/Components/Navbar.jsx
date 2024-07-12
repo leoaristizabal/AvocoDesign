@@ -16,7 +16,6 @@ const Nav = styled.div`
   top: 0;
   z-index: 10;
   color: white;
-  box-shadow:rgba(175, 220, 52, 0.5) 0px 4px 12px;
 `;
 
 const NavbarContainer = styled.div`

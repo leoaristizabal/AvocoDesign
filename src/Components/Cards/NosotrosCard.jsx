@@ -114,7 +114,7 @@ const NosotrosCard = ({ nosotros }) => {
                 background: "#000",
                 color: "#fff",
                 boxShadow: "rgba(175, 220, 52, 0.5) 0px 4px 18px",
-                backgroundColor: "#252525",
+                backgroundColor: "transparent",
                 border: "1px solid rgba(175, 220, 52, 0.125)",
                 borderRadius: "6px",
             }}

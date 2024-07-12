@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { projects } from '../../data/constants';
 import ProjectCard from '../Cards/ProjectCard';
+import StarCanvas from "../Canvas/Stars"
 
 const Container = styled.div`
   display: flex;
@@ -108,6 +109,7 @@ const Projects = () => {
     return (
         <Container id="Projects">
             <Wrapper>
+            <StarCanvas/>
                 <Title>Proyectos</Title>
                 <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus, distinctio esse sequi iure vel voluptates ullam laudantium sit mollitia.</Desc>
 

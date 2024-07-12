@@ -75,7 +75,7 @@ const Servicio = styled.div`
     background-color: transparent;
     border: 1px solid rgba(175, 220, 52, 0.25);
     box-shadow: rgba(175, 220, 52, 0.5) 0px 4px 18px;
-    border-radius: 16px;
+    border-radius: 6px;
     padding: 18px 36px;
     @media (max-width: 768px) {
         max-width: 400px;
