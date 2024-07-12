@@ -95,7 +95,7 @@ const Testimonio = () => {
                 <Title>Testimonios</Title>
                 <Desc
                 >
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolores repellat nisi obcaecati. Voluptatibus, cum laudantium. Explicabo, doloribus? Saepe, reprehenderit.
+                    Conoce los comentarios de la comunidad de nuestros clientes en las experiencias compartidas en nuestra agencia.
                 </Desc>
                 <SubTitle>
                     ¿Qué dicen nuestros clientes?
