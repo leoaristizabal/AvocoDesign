@@ -140,7 +140,7 @@ const ServicioImg = styled.img`
 
 const Servicios = () => {
     return (
-        <Container id="Servicos">
+        <Container id="Servicios">
             <Wrapper>
             <StarCanvas/>
                 <Title>Servicios</Title>

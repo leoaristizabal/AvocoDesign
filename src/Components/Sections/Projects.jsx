@@ -107,7 +107,7 @@ const CardContainer = styled.div`
 const Projects = () => {
     const [toggle, setToggle] = useState("Todos")
     return (
-        <Container id="Projects">
+        <Container id="Clientes">
             <Wrapper>
             <StarCanvas/>
                 <Title>Proyectos</Title>

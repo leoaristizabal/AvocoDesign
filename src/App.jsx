@@ -9,7 +9,7 @@ import Testimonio from "./Components/Sections/Testimonio";
 import StartCanvas from "./Components/Canvas/Stars"
 import Projects from "./Components/Sections/Projects";
 import Contact from "./Components/Sections/Contact";
-
+import Footer from "./Components/Sections/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -42,19 +42,19 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <StartCanvas />
+          <StartCanvas/>
           <div>
             <Wrapper>
-              <Hero />
-              <Servicios />
-              <Nosotros />
-            </Wrapper>
-            <Projects />
-            <Wrapper>
-              <Testimonio />
-              <Contact/>
+              <Hero/>
+              <Servicios/>
+              <Nosotros/>
+              <Projects/>
+              <Testimonio/>
+               <Contact/>
             </Wrapper>
           </div>
+           
+      <Footer/>
         </Body>
       </BrowserRouter>
     </ThemeProvider>

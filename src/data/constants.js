@@ -28,27 +28,23 @@ export const servicios = [
         image: "/ICONOAVOCOOMG.svg"
       },
       {
+        name: "SEO",
+        image: "/ICONOAVOCOOMG.svg",
+      },
+      {
         name: "Ecommerce",
         image: "/ICONOAVOCOOMG.svg",
       },
       
-      
       {
-        name: "Web Corporativa",
+        name: "Web Corporativas",
         image: "/ICONOAVOCOOMG.svg",
       },
       {
         name: "Mantenimiento",
         image: "/ICONOAVOCOOMG.svg",
       },
-      {
-        name: "Portfolios",
-        image: "/ICONOAVOCOOMG.svg",
-      },
-      {
-        name: "SEO",
-        image: "/ICONOAVOCOOMG.svg",
-      }    
+         
     ],
   },
   {
@@ -72,7 +68,7 @@ export const servicios = [
         image: "/ICONOAVOCOOMG.svg",
       },
       {
-        name: "Flyers",
+        name: "Menús",
         image: "/ICONOAVOCOOMG.svg",
       },
       
@@ -85,7 +81,7 @@ export const servicios = [
   },
   
   {
-    title: "Diseño Gráfico",
+    title: "Programas de Diseño",
     servicios: [
       
       {
@@ -335,8 +331,6 @@ export const projects = [
         name: "Pedro Perez",
         img: "/8.svg",
       }
-      
-      
     ],
   },
   {

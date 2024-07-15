@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import emailjs from "@emailjs/browser";
+import emailjs from 'emailjs-com';
 
 const Container = styled.div`
   display: flex;
@@ -29,7 +29,7 @@ const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.primary};
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
@@ -39,7 +39,7 @@ const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     font-size: 16px;
   }
@@ -113,28 +113,47 @@ const ContactButton = styled.input`
 
 
 const Contact = () => {
+  const form = useRef();
+  const handelSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_hfnp8yp",
+        "template_yrhm9cp",
+        form.current,
+        "7HnUfSwkKru4zGnhH"
+      )
+      .then(
+        (result) => {
+          alert("Mensaje Enviado");
+          form.current.result();
+        },
+        (error) => {
+          alert(error);
+        }
+      );
+  };
   return (
-    <Container id="Contact">
+    <Container id="Contacto">
       <Wrapper>
         <Title>Contacto</Title>
         <Desc
           style={{
-            marginBottom: "40px",
+            marginBottom: "20px",
           }}
         >
-          Contáctanos si tienes alguna dudo o quieres iniciar un proyecto!
+          Contáctanos si tienes alguna duda o quieres iniciar un proyecto!
         </Desc>
-        <ContactForm>
-          <ContactTitle>¡Escríbenos! 🚀</ContactTitle>
-          <ContactInput placeholder="Email" name="from_email" />
-          <ContactInput placeholder="Nombre" name="from_name" />
-          <ContactInput placeholder="Asunto" name="subject" />
-          <ContactInputMessage placeholder="Mensaje" name="message" rows={4} />
-          <ContactButton type="submit" value="Enviar" />
+        <ContactForm ref={form} onSubmit={handelSubmit}>
+          <ContactTitle>Escríbenos 🚀</ContactTitle>
+          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
     </Container>
-  )
-}
-
+  );
+};
 export default Contact

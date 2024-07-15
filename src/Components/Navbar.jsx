@@ -160,27 +160,27 @@ const Navbar = () => {
         </MobileIcon>
 
         <NavItems>
-          <NavLink href="#Nosotros">Inicio</NavLink>
+          <NavLink href="#Inicio">Inicio</NavLink>
           <NavLink href="#Servicios">Servicios</NavLink>
-          <NavLink href="#Experiencia">Nosotros</NavLink>
+          <NavLink href="#Nosotros">Nosotros</NavLink>
           <NavLink href="#Clientes">Clientes</NavLink>
-          <NavLink href="#Otros">Otros</NavLink>
+          <NavLink href="#Contacto">Contacto</NavLink>
         </NavItems>
 
         <ButtonContainer>
           <GithubButton href={Bio.github} target='_blank'>
-            Cotización
+            Cotizar
           </GithubButton>
         </ButtonContainer>
 
         <MobileMenu isOpen={isOpen}>
-          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Nosotros">Inicio</NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Inicio">Inicio</NavLink>
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Servicios">Servicios</NavLink>
-          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experiencia">Nosotros</NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Nosotros">Nosotros</NavLink>
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Clientes">Clientes</NavLink>
-          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Otros">Otros</NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contacto">Contacto</NavLink>
           <GithubButton href={Bio.github} target='_blank'>
-            Cotización
+            Cotizar
           </GithubButton>
         </MobileMenu>
       </NavbarContainer>

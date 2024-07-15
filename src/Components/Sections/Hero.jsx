@@ -227,7 +227,7 @@ const ImgHero = styled.img`
 
 
 const Hero = () => {
-  return <div id="about">
+  return <div id="Inicio">
     <HeroContainer>
 
       <HeroBg>
