@@ -48,6 +48,8 @@ function App() {
               <Hero/>
               <Servicios/>
               <Nosotros/>
+            </Wrapper>
+            <Wrapper>
               <Projects/>
               <Testimonio/>
                <Contact/>

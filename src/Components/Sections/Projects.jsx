@@ -111,7 +111,7 @@ const Projects = () => {
             <Wrapper>
             <StarCanvas/>
                 <Title>Proyectos</Title>
-                <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus, distinctio esse sequi iure vel voluptates ullam laudantium sit mollitia.</Desc>
+                <Desc>Aquí encontrarás todos los proyectos que hemos realizado a nuestros clientes, si te sientes idetinficado con alguno no dudes en contactarnos!</Desc>
 
                 <ToggleButtonGroup>
                     <ToggleButton active={toggle === "Todos"}

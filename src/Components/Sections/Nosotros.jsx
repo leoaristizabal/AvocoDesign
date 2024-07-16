@@ -4,7 +4,6 @@ import 'react-vertical-timeline-component/style.min.css'; //estilos de la peloti
 import styled from 'styled-components'
 import { nosotros } from '../../data/constants';
 import NosotrosCard from '../Cards/NosotrosCard';
-import StarCanvas from "../Canvas/Stars"
 
 const Container = styled.div`
   
@@ -82,7 +81,6 @@ const Nosotros = () => {
         <Container id="Nosotros">
             <Wrapper>
            
-            <StarCanvas/>
                 <Title>Nuestro Equipo</Title>
                 <Desc
                 >
